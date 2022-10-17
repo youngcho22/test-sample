@@ -1,5 +1,10 @@
 pipeline {
-    agent { node { label 'build-machine'} }
+    agent {
+      docker {
+        image 'python:3'
+        label 'my-build-agent'
+      }
+    }
     stages{
         stage('Clone repo') {
             steps {
