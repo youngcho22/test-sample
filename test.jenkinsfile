@@ -10,8 +10,10 @@ pipeline {
             }
         }
         stage('Run unit tests') {
-            script {
-                sh "python -m unittest -v test.py"
+            steps {
+                script {
+                    sh "python -m unittest -v test.py"
+                }
             }
         }
     }
