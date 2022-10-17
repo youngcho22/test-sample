@@ -1,0 +1,13 @@
+pipeline {
+    agent { node { label 'build-machine'} }
+    stages{
+        stage('Clone repo') {
+            steps {
+                git (
+                    branch: "main",
+                    url: "git@github.com:https://github.com/youngcho22/test-sample.git",
+                )
+            }
+        }
+    }
+}
