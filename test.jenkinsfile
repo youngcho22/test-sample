@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git (
                     branch: "main",
-                    url: "git@github.com:https://github.com/youngcho22/test-sample.git",
+                    url: "git@github.com:youngcho22/test-sample.git",
                 )
             }
         }
