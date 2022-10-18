@@ -11,7 +11,9 @@ pipeline {
         }
         stage('Run unit tests') {
             steps {
+                sh "pip install unittest-xml-reporting"
                 sh "python -m unittest -v test.py"
+                sh "python -m xmlrunner discover ./tests --output-file reports.xml"
             }
         }
     }
