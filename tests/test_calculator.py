@@ -1,6 +1,7 @@
 import unittest
 
 import calculator
+import xmlrunner
 
 class Testing(unittest.TestCase):
     calc = calculator.Calculator()
@@ -18,4 +19,6 @@ class Testing(unittest.TestCase):
         self.assertEqual(self.calc.multiply(5, 0), 10)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(
+        testRunner=xmlrunner.XMLTestRunner(),
+        failfast=False, buffer=False, catchbreak=False)
