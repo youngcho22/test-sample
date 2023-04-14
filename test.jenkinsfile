@@ -1,0 +1,20 @@
+pipeline {
+    agent { docker { image 'python:3.10.7-alpine' } }
+    stages{
+        stage('Clone repo') {
+            steps {
+                git (
+                    branch: "main",
+                    url: "git@github.com:youngcho22/test-sample.git",
+                )
+            }
+        }
+        stage('Run unit tests') {
+            steps {
+                sh "pip install unittest-xml-reporting"
+                sh "python -m unittest -v test.py"
+                sh "python -m xmlrunner discover ./tests --output-file reports.xml"
+            }
+        }
+    }
+}

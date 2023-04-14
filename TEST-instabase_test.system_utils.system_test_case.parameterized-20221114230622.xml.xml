@@ -1,0 +1,696 @@
+19:05:58  <?xml version="1.0" encoding="UTF-8"?>
+19:05:58  <testsuite errors="3" failures="5" file="instabase_test/system_utils/system_test_case.py" name="instabase_test.system_utils.system_test_case.parameterized-20221114233847" skipped="10" tests="113" time="1497.670" timestamp="2022-11-15T00:04:02">
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_create_user" time="6.458" timestamp="2022-11-14T23:38:54"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_get_oauth2" time="7.598" timestamp="2022-11-14T23:39:02"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_add_file_attributes" time="8.576" timestamp="2022-11-14T23:39:11"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_create_project" time="10.959" timestamp="2022-11-14T23:39:22"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_delete_document" time="20.966" timestamp="2022-11-14T23:39:43"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_delete_file_attributes_and_reader_name" time="9.535" timestamp="2022-11-14T23:39:52"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_delete_project" time="14.013" timestamp="2022-11-14T23:40:06"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_delete_staging_dir" time="8.688" timestamp="2022-11-14T23:40:15"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_edit_both_file_attributes_and_reader_name" time="9.871" timestamp="2022-11-14T23:40:25"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_edit_file_reader_name" time="10.460" timestamp="2022-11-14T23:40:35"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_get_project_name" time="8.998" timestamp="2022-11-14T23:40:44"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_import_dataset" time="31.124" timestamp="2022-11-14T23:41:15"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_process_file_from_outside_project" time="18.566" timestamp="2022-11-14T23:41:56"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_process_file_from_staging_and_outside_project" time="20.700" timestamp="2022-11-14T23:42:17"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_process_file_reader_profile_name_metadata" time="17.126" timestamp="2022-11-14T23:42:34"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_process_file_reader_profile_raw_empty_metadata" time="17.377" timestamp="2022-11-14T23:42:52"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_rename_document" time="21.370" timestamp="2022-11-14T23:43:13"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_rename_project" time="8.168" timestamp="2022-11-14T23:43:21"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_replace_metadata_attributes" time="9.101" timestamp="2022-11-14T23:43:30"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_reprocess_file_from_within_project" time="16.007" timestamp="2022-11-14T23:43:46"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_skip_update_absent_tutorial_progress_metadata" time="9.201" timestamp="2022-11-14T23:43:56"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_update_tutorial_progress_metadata" time="8.526" timestamp="2022-11-14T23:44:04"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_update_tutorial_progress_metadata_with_unnecessary_attributes" time="9.529" timestamp="2022-11-14T23:44:14"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="547" name="test_filesystem_test_descriptions" time="0.307" timestamp="2022-11-14T23:44:25">
+19:05:58  		<!--Invoke test_filesystem_test_descriptions without necessary parameters.
+19:05:58  
+19:05:58      Owner: Pridhvi Vegesna (pridhvi.vegesna)
+19:05:58  
+19:05:58      Description: There is a base set of performance tests that are available
+19:05:58        against the instabase file-system. This system test issues a request to
+19:05:58        the GET endpoint that surfaces the test names and descriptions. The test
+19:05:58        then verifies the accuracy of the list of test names/descriptions,
+19:05:58        confirming that filesystem performance test information surfacing is functional.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="44" name="test_system_test_descriptions" time="1.254" timestamp="2022-11-14T23:44:26">
+19:05:58  		<!--Test that one can retrieve system test descriptions by API calls
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: This test issues a GET API call to the system_test/filesystem endpoint
+19:05:58        to retrieve a list of test descriptions.   
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="250" name="test_system_test_user_selected_test" time="132.436" timestamp="2022-11-14T23:46:38">
+19:05:58  		<!--Test that user-selected test functionaility of the diagnostics/system_test api endpoint 
+19:05:58      works as expected.
+19:05:58  
+19:05:58        Owner: Victor Zeng (victor.zeng)
+19:05:58  
+19:05:58        Description: System test which tests using the public api for running a diagnostic 
+19:05:58          child system test against a deployment. This test validates the `tests` field of the
+19:05:58          diagnostics API, ensuring that only the selected tests are run. 
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1110" name="test_consecutive_append_v1" time="7.020" timestamp="2022-11-14T23:46:51">
+19:05:58  		<!--Test that serial append operations with cursor = -1 succeeds using V1 API.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test that one can consecutively append to a file 10 times with 10 bytes each.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1120" name="test_consecutive_append_v2" time="6.677" timestamp="2022-11-14T23:46:58">
+19:05:58  		<!--Test that serial append operations with cursor = -1 succeeds using V2 API.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test that one can consecutively append to a file 10 times with 10 bytes each.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_copy_move_file_across_v2" time="0.184" timestamp="2022-11-14T23:46:58"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_copy_move_file_across_v2_fail" time="0.079" timestamp="2022-11-14T23:46:58"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1239" name="test_copy_move_file_v2" time="29.676" timestamp="2022-11-14T23:47:28">
+19:05:58  		<!--Test that copying/moving a file with the v2 API within the same drive behaves as intended
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58   
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Copy/move a file to another location.
+19:05:58        2) Copy/move a file to another location where there already exists a file with 
+19:05:58          the same name.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1398" name="test_copy_move_file_v2_fail" time="14.080" timestamp="2022-11-14T23:47:42">
+19:05:58  		<!--Test that copying/moving a file with the v2 API within the same drive fails when expected
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58   
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Attempt, and fail, to copy a file to itself.
+19:05:58        2) Attempt, and fail, to copy/move a file to another location where there exists
+19:05:58          a folder with the same name.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1506" name="test_copy_move_folder_v2" time="39.592" timestamp="2022-11-14T23:48:22">
+19:05:58  		<!--Test that copying/moving a folder with the v2 API within the same drive behaves as intended.
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58   
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Copy/move a folder and its contents to another location.
+19:05:58        2) Copy/move a folder and its contents to another location where a folder already exists.
+19:05:58        3) Copy/move a folder and its contents to another location where a folder already
+19:05:58          exists, where files in the destination share names with files in the source.
+19:05:58        4) Copy/move a folder and its contents to another location where a folder already
+19:05:58          exists, where folders and their contents in the destination share names
+19:05:58          with folders in the source.
+19:05:58        5) Copy/move a folder that has a special char (e.g. '+') in its folder name
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1626" name="test_copy_move_folder_v2_fail" time="46.259" timestamp="2022-11-14T23:49:08">
+19:05:58  		<!--Test that copying/moving a folder with the v2 API within the same drive fails when expected.
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58   
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Attempt to copy/move a folder to a location where a file with the same name exists.
+19:05:58        2) Attempt to copy/move a folder to a location within itself.
+19:05:58        3) Attempt to copy/move a folder to itself.
+19:05:58        4) Attempt to copy/move a folder into a directory that does not exist
+19:05:58        5) Attempt to copy/move a folder to a location where the folder would be overwritten
+19:05:58          by one of its subdirectories.
+19:05:58        6) Attempt to copy/move a folder to an existing folder containing a directory that
+19:05:58          shares a name with a file in the original folder.
+19:05:58        7) Attempt to copy/move a folder to an existing folder containing a file that shares
+19:05:58          a name with a directory in the original folder.
+19:05:58        8) Attempt to copy/move a src folder that does not exist
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="958" name="test_delete_file_and_folder_v1" time="19.194" timestamp="2022-11-14T23:49:27">
+19:05:58  		<!--Test delete file and folder works as expected for v1.
+19:05:58      
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run against the file service v1 endpoint
+19:05:58        with either the OAuth token or cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Delete a single file
+19:05:58        2) Delete a flat folder with no nested folder
+19:05:58        3) Delete a folder with nested folders and files
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="975" name="test_delete_file_and_folder_v2" time="27.346" timestamp="2022-11-14T23:49:54">
+19:05:58  		<!--Test delete file and folder works as expected for v2.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run against the file service v2 endpoint
+19:05:58        with either the OAuth token or cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Delete a single file
+19:05:58        2) Delete a flat folder with no nested folder
+19:05:58        3) Delete a folder with nested folders and files
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="2105" name="test_delete_v2" time="6.829" timestamp="2022-11-14T23:50:01">
+19:05:58  		<!--Test the DELETE request call to remove a file/folder
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58  
+19:05:58      Description: Test that one can use the DELETE request to remove a 
+19:05:58        file/folder in file service api V2
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1945" name="test_file_folder_write_v2" time="1.509" timestamp="2022-11-14T23:50:03">
+19:05:58  		<!--Test that file and folder creation and modification operations with the v2 API succeeds and fails when expected.
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58      1) Create a directory
+19:05:58      2) Create a file in that directory using PUT and check its contents
+19:05:58      3) Append to that file using PATCH and check its contents
+19:05:58      4) Overwrite that file using PUT and check its contents
+19:05:58      5) Create an empty file using POST and check its contents
+19:05:58      6) Attempt to create a directory at the path of an existing file and check that it fails
+19:05:58      7) Attempt to create a file at a path occupied by a directory using PUT and check that it fails
+19:05:58      8) Attempt to create a file at a path occupied by a directory using POST and check that it fails
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="918" name="test_list_dir_v1" time="24.582" timestamp="2022-11-14T23:50:27">
+19:05:58  		<!--Test list folder works as expected for v1.
+19:05:58      
+19:05:58        Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58        Description: The following test cases are run with either the OAuth token or
+19:05:58          cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) The ListDir API works correctly for typical directories, and for those that
+19:05:58          have special characters such as space (' ') and plus sign ('+') in their names.
+19:05:58        2) The ListDir API works correctly when file names under a directory include
+19:05:58          special characters.
+19:05:58        3) The ListDir API works correctly with an empty start token
+19:05:58        4) The ListDir request on a directory containing a mix of files and folders works correctly
+19:05:58        5) The ListDir API returns an error with a path that does not exist
+19:05:58        6) The ListDir API returns an error with an invalid start token
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="938" name="test_list_dir_v2" time="25.944" timestamp="2022-11-14T23:50:53">
+19:05:58  		<!--Test list folder works as expected for v2.
+19:05:58      
+19:05:58        Owner: Cheryl Zhou (hongrun.zhou)
+19:05:58  
+19:05:58        Description: The following test cases are run with either the OAuth token or
+19:05:58          cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) The ListDir API works correctly for typical directories, and for those that
+19:05:58          have special characters such as space (' ') and plus sign ('+') in their names.
+19:05:58        2) The ListDir API works correctly when file names under a directory include
+19:05:58          special characters.
+19:05:58        3) The ListDir API works correctly with an empty start token
+19:05:58        4) The ListDir request on a directory containing a mix of files and folders works correctly
+19:05:58        5) The ListDir API returns an error with a path that does not exist
+19:05:58        6) The ListDir API returns an error with an invalid start token
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="268" name="test_mkdir_and_create_file_client_side_encrypted" time="2.688" timestamp="2022-11-14T23:50:56">
+19:05:58  		<!--Test mkdir and then create file in the directory under a client side
+19:05:58      encrypted drive.
+19:05:58  
+19:05:58      Owner: Yan Wang (yan.wang)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Test that one can create a folder and a file.
+19:05:58        2) Test that one can read file content based on provided bytes range.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="236" name="test_mkdir_and_create_file_v1" time="8.187" timestamp="2022-11-14T23:51:04">
+19:05:58  		<!--Test mkdir and then create file in the directory via API V1.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Test that one can create a folder and a file.
+19:05:58        2) Test that one can read file content based on provided bytes range.
+19:05:58        3) Test that one can modify file content.
+19:05:58        4) Test that one can read a file's metadata.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="252" name="test_mkdir_and_create_file_v2" time="10.470" timestamp="2022-11-14T23:51:15">
+19:05:58  		<!--Test mkdir and then create file in the directory via API V2.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Test that one can create a folder and a file.
+19:05:58        2) Test that one can read file content based on provided bytes range.
+19:05:58        3) Test that one can modify file content.
+19:05:58        4) Test that one can read a file's metadata.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1036" name="test_multipart_upload" time="27.160" timestamp="2022-11-14T23:51:42">
+19:05:58  		<!--Test the multipart upload API endpoint.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test that one can use the multipart upload API endpoints to successfully
+19:05:58        upload a 50MB file. 
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1829" name="test_rename_v2" time="19.906" timestamp="2022-11-14T23:52:02">
+19:05:58  		<!--Test that rename with the v2 API within the same drive succeeds and fails when expected.
+19:05:58  
+19:05:58      Owner: Cheryl Zhou (hongrun.zhou)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Successfully rename a folder to a name that does not exist yet.
+19:05:58        2) Fail to rename a folder to a name that already exists.
+19:05:58        2) Fail to rename a folder to its original name.
+19:05:58        3) Successfully to rename a file to a name that does not exist yet.
+19:05:58        4) Fail to rename a file to a name that already exists.
+19:05:58        5) Fail to rename a folder to its original name.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="2082" name="test_stat_v2" time="0.621" timestamp="2022-11-14T23:52:02">
+19:05:58  		<!--Test the head request call to stat a file/folder and retrieve metadata
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test that one can use the head request call to fetch metadata for
+19:05:58        folder/file in file service api V2
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1170" name="test_unzip_and_extract" time="28.005" timestamp="2022-11-14T23:52:30">
+19:05:58  		<!--Test that the unzip and extract APIs work as intended.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test that one can unzip and extract files up to 10MB via the file system APIs.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="1207" name="test_unzip_and_extract_failure" time="3.309" timestamp="2022-11-14T23:52:34">
+19:05:58  		<!--Test that attempting an invalid unzip operation behaves as intended.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58   
+19:05:58      Description: Test that attempting to unzip or extract a non-zip file results in errors.     
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="990" name="test_write_and_read_large_files" time="84.196" timestamp="2022-11-14T23:53:58">
+19:05:58  		<!--Test write and read large files, e.g. 100KB, 1MB, 10MB and 50MB size.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test that one can write and read files up to 50MB using file system API. 
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="2032" name="test_write_file_v2_fail" time="4.312" timestamp="2022-11-14T23:54:02">
+19:05:58  		<!--Test several failure scenarios for write file API
+19:05:58      
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: Test the following failure scenarios:
+19:05:58        1) Write to a file that already exists with 'If-None-Match' set to '*'.
+19:05:58        2) Write to a file using arbitrary cursor that's in the middle of the file
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="120" name="test_download_file" time="20.626" timestamp="2022-11-14T23:54:23"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="120" name="test_download_folder" time="3.024" timestamp="2022-11-14T23:54:26"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="120" name="test_list_dir_and_access_file" time="6.926" timestamp="2022-11-14T23:54:33"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="120" name="test_list_dir_and_access_file_repo_accessor_role" time="3.894" timestamp="2022-11-14T23:54:37"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_get_schema" time="25.183" timestamp="2022-11-14T23:55:02"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_flow_review_change_metadata" time="114.533" timestamp="2022-11-14T23:56:56"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_add_remove_users_from_group" time="32.465" timestamp="2022-11-14T23:57:29"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_create_group" time="5.642" timestamp="2022-11-14T23:57:35"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_mount_database_oracle" time="7.573" timestamp="2022-11-14T23:57:42"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_table_execute" time="8.901" timestamp="2022-11-14T23:57:51"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_table_get_table_spec" time="11.388" timestamp="2022-11-14T23:58:03"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_table_get_tables" time="8.112" timestamp="2022-11-14T23:58:11"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_create_org" time="2.279" timestamp="2022-11-14T23:58:13"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_org_add_and_remove_user_admin" time="7.478" timestamp="2022-11-14T23:58:20"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_update_and_read_org" time="2.359" timestamp="2022-11-14T23:58:23"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_create_org_owned_repo" time="4.850" timestamp="2022-11-14T23:58:28"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_org_acl_perms" time="31.211" timestamp="2022-11-14T23:58:59"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_rename_org_owned_repo" time="34.364" timestamp="2022-11-14T23:59:33"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_transfer_repo_from_org_to_org" time="17.638" timestamp="2022-11-14T23:59:51"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_transfer_repo_from_org_to_user" time="6.668" timestamp="2022-11-14T23:59:58"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_transfer_repo_from_user_to_org" time="6.431" timestamp="2022-11-15T00:00:04"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_add_remove_user_collaborator" time="7.766" timestamp="2022-11-15T00:00:12"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_repo_group_collaborator" time="10.319" timestamp="2022-11-15T00:00:22"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_add_remove_repo_collaborator" time="4.481" timestamp="2022-11-15T00:00:27"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_create_repo" time="3.426" timestamp="2022-11-15T00:00:30"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_get_repo" time="8.991" timestamp="2022-11-15T00:00:39"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_purge_repo" time="2.682" timestamp="2022-11-15T00:00:42"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_update_repo" time="7.675" timestamp="2022-11-15T00:00:49"/>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="282" name="test_con_params" time="0.002" timestamp="2022-11-15T00:00:49">
+19:05:58  		<!--Test that SystemTestConfig.get_api_con_params behaves as expected
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="257" name="test_concurrency" time="4.013" timestamp="2022-11-15T00:00:53">
+19:05:58  		<!--Test that multiple tests can be run concurrently without their configs
+19:05:58      interfering with each other.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="375" name="test_load_non_system_test" time="0.075" timestamp="2022-11-15T00:00:53">
+19:05:58  		<!--Check that test cases that don't inherit from SystemTestCase will register
+19:05:58        an error.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="387" name="test_load_system_test_bad_import" time="0.072" timestamp="2022-11-15T00:00:54">
+19:05:58  		<!--Check that test cases that can't be properly imported register an error
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="313" name="test_skip_if_params_unspecified" time="0.156" timestamp="2022-11-15T00:00:54">
+19:05:58  		<!--Check that tests correctly run when all potentially checked params are
+19:05:58      provided, including when the decorator is used without specifying params
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="351" name="test_retry_func" time="1.001" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Check that the retry decorator works correctly
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="72" name="test_double_tag" time="0.043" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests with two tags will find tests with either tag.-->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="87" name="test_exclude_tag" time="0.045" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests with specified exclude tags will not load tests
+19:05:58      excluded.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="119" name="test_exclude_tag_only" time="0.040" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests without specified tags but with an exclude tag will
+19:05:58      run all tags without the excluded tag.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="104" name="test_no_tags" time="0.039" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests with no specified tags will run all tests.-->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="59" name="test_single_tag" time="0.040" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests with a single tag will find tests with that tag.-->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="137" name="test_tag_exclude_tag_overlap" time="0.001" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that attempting to load tests where a tag is both searched for and
+19:05:58      excluded will properly raise an exception.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="151" name="test_tag_when_method_specified" time="0.001" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that tags are respected even when an individual test method
+19:05:58      is specified.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="168" name="test_user_selected_tests" time="0.039" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests with selected tests will run only selected tests.-->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="228" name="test_user_selected_tests_with_both_tag" time="0.061" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests without specified tags but with an exclude tag will
+19:05:58      run all tags without the excluded tag.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="207" name="test_user_selected_tests_with_exclude_tag_" time="0.058" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests with selected tests and an exclude tag will
+19:05:58      run all selected tests without the excluded tag.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="184" name="test_user_selected_tests_with_include_tag" time="0.065" timestamp="2022-11-15T00:00:55">
+19:05:58  		<!--Test that loading tests without specified tags but with an exclude tag will
+19:05:58      run all tags without the excluded tag.
+19:05:58      -->
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_import_flow_with_name" time="11.814" timestamp="2022-11-14T23:41:27">
+19:05:58  		<failure message="False is not true" type="AssertionError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 259, in wrapper
+19:05:58      raise e
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 255, in wrapper
+19:05:58      func(*args, **kwargs)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_builder.py", line 1277, in test_import_flow_with_name
+19:05:58      self.user.import_flow(flowV3_with_linked_module_path, 'test')
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_builder.py", line 365, in import_flow
+19:05:58      self.check_response(resp)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_user.py", line 157, in check_response
+19:05:58      self.assertTrue(resp.ok)
+19:05:58  AssertionError: False is not true
+19:05:58  ]]>		</failure>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="242" name="test_import_flow_without_name" time="10.921" timestamp="2022-11-14T23:41:38">
+19:05:58  		<failure message="False is not true" type="AssertionError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 259, in wrapper
+19:05:58      raise e
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 255, in wrapper
+19:05:58      func(*args, **kwargs)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_builder.py", line 1242, in test_import_flow_without_name
+19:05:58      self.user.import_flow(flowV3_with_linked_module_path)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_builder.py", line 365, in import_flow
+19:05:58      self.check_response(resp)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_user.py", line 157, in check_response
+19:05:58      self.assertTrue(resp.ok)
+19:05:58  AssertionError: False is not true
+19:05:58  ]]>		</failure>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="563" name="test_database_test_descriptions" time="0.186" timestamp="2022-11-14T23:44:14">
+19:05:58  		<!--Invoke test_database_test_descriptions without necessary parameters.
+19:05:58  
+19:05:58      Owner: Shutong Chen
+19:05:58  
+19:05:58      Description: This system test issues a request to the GET endpoint that surfaces 
+19:05:58        the names and descriptions of tests supported by database_service. 
+19:05:58        The test then verifies the accuracy of the list of test names/descriptions,
+19:05:58        confirming that database performance test information surfacing is functional.
+19:05:58      -->
+19:05:58  		<failure message="Lists differ: [{'te[404 chars]test_insert_large_text_database_rpc', 'test_de[1689 chars]es&quot;}] != [{'te[404 chars]test_ping_database_rpc', 'test_description': &quot;[678 chars]es&quot;}]
+19:05:58  
+19:05:58  First differing element 2:
+19:05:58  {'tes[15 chars]test_insert_large_text_database_rpc', 'test_de[147 chars]mes&quot;}
+19:05:58  {'tes[15 chars]test_ping_database_rpc', 'test_description': &quot;[98 chars]mes&quot;}
+19:05:58  
+19:05:58  First list contains 5 additional elements.
+19:05:58  First extra element 6:
+19:05:58  {'test_name': 'perf_test_read_large_text_database_rpc', 'test_description': &quot;Invokes a query to read one row with long text into testing table and meters performance. The query will be executed 'iterations' times&quot;}
+19:05:58  
+19:05:58  Diff is 2793 characters long. Set self.maxDiff to None to see it." type="AssertionError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_diagnostics.py", line 576, in test_database_test_descriptions
+19:05:58      TestPerformanceTests._DB_PERF_TEST_DESCRIPTIONS)
+19:05:58  AssertionError: Lists differ: [{'te[404 chars]test_insert_large_text_database_rpc', 'test_de[1689 chars]es"}] != [{'te[404 chars]test_ping_database_rpc', 'test_description': "[678 chars]es"}]
+19:05:58  
+19:05:58  First differing element 2:
+19:05:58  {'tes[15 chars]test_insert_large_text_database_rpc', 'test_de[147 chars]mes"}
+19:05:58  {'tes[15 chars]test_ping_database_rpc', 'test_description': "[98 chars]mes"}
+19:05:58  
+19:05:58  First list contains 5 additional elements.
+19:05:58  First extra element 6:
+19:05:58  {'test_name': 'perf_test_read_large_text_database_rpc', 'test_description': "Invokes a query to read one row with long text into testing table and meters performance. The query will be executed 'iterations' times"}
+19:05:58  
+19:05:58  Diff is 2793 characters long. Set self.maxDiff to None to see it.
+19:05:58  ]]>		</failure>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="578" name="test_filesystem_results" time="10.585" timestamp="2022-11-14T23:44:24">
+19:05:58  		<!--Invoke run_filesystem_perf_tests without necessary parameters.
+19:05:58  
+19:05:58      Owner: Pridhvi Vegesna (pridhvi.vegesna)
+19:05:58  
+19:05:58      Description: Issues requests to the public endpoint for running a filesystem
+19:05:58        performance test, testing the end to end flow of starting filesystem performance
+19:05:58        tests and retrieving results. The filesystem performance test runs direct read,
+19:05:58        write, and write-multipart rpc's, along with public api read and write calls,
+19:05:58        to file-service. The results are stored and retrieved by a result fetching API
+19:05:58        for performance tests. The system test validates that the results are retrievable
+19:05:58        and that there are no errors (no failures in read/writing rpc and api calls) in the
+19:05:58        results.
+19:05:58      -->
+19:05:58  		<failure message="'ERROR' != 'OK'
+19:05:58  - ERROR
+19:05:58  + OK
+19:05:58   : Unexpected error: Revoking task perf-test-fs-0d9752d7-7344-4a9a-bb5d-7da2a25bf301 which was killed, likely because the worker ran out of memory." type="AssertionError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_diagnostics.py", line 608, in test_filesystem_results
+19:05:58      check_progress=True)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_diagnostics.py", line 435, in _wait_for_perf_test_completion
+19:05:58      perf_test_resp = self._get_perf_test_result(test_id, exp_ok)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_diagnostics.py", line 423, in _get_perf_test_result
+19:05:58      self.user.check_response_data(rv_data, exp_ok)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_user.py", line 194, in check_response_data
+19:05:58      rv_data['status'], 'OK', msg=f'Unexpected error: {msg}' if msg else '')
+19:05:58  AssertionError: 'ERROR' != 'OK'
+19:05:58  - ERROR
+19:05:58  + OK
+19:05:58   : Unexpected error: Revoking task perf-test-fs-0d9752d7-7344-4a9a-bb5d-7da2a25bf301 which was killed, likely because the worker ran out of memory.
+19:05:58  ]]>		</failure>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="82" name="test_ibfile_v2" time="176.472" timestamp="2022-11-15T00:04:02">
+19:05:58  		<!--Run a flow to test ibfile v2 functionality.
+19:05:58  
+19:05:58      Owner: Adrian Blue (adrian.blue)
+19:05:58  
+19:05:58      Description: A flow is run with a UDF that tests and compares the output of
+19:05:58        ibfile functions when the 'is_v2' parameter is True and False, ensuring that 
+19:05:58        the functions' external behavior does not substantially change with 'is_v2'.
+19:05:58        The following functions are tested by the UDF:
+19:05:58        -ibfile.copy
+19:05:58        -ibfile.list_dir
+19:05:58        -ibfile.copy_across
+19:05:58      -->
+19:05:58  		<failure message="True is not false : Test failed due to 'ERROR' != 'OK'
+19:05:58  - ERROR
+19:05:58  + OK
+19:05:58   : Unexpected error: All records had a runtime exception. Last error observed was: no result found." type="AssertionError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_udf.py", line 78, in _check_futures
+19:05:58      future.result()
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase/utils/concurrency/future.py", line 53, in result
+19:05:58      return self._future.result(timeout=timeout)
+19:05:58  AssertionError: 'ERROR' != 'OK'
+19:05:58  - ERROR
+19:05:58  + OK
+19:05:58   : Unexpected error: All records had a runtime exception. Last error observed was: no result found.
+19:05:58  
+19:05:58  During handling of the above exception, another exception occurred:
+19:05:58  
+19:05:58  Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_udf.py", line 170, in test_ibfile_v2
+19:05:58      self._check_futures(futures)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_udf.py", line 80, in _check_futures
+19:05:58      self.assertFalse(True, msg=f'Test failed due to {e}')
+19:05:58  AssertionError: True is not false : Test failed due to 'ERROR' != 'OK'
+19:05:58  - ERROR
+19:05:58  + OK
+19:05:58   : Unexpected error: All records had a runtime exception. Last error observed was: no result found.
+19:05:58  ]]>		</failure>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_flow_review_change_record_mapping" time="0.106" timestamp="2022-11-14T23:56:56">
+19:05:58  		<error message="'numbering_flow'" type="KeyError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 309, in wrapper
+19:05:58      return test_func(*args, **kwargs)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_flow_review.py", line 955, in test_flow_review_change_record_mapping
+19:05:58      input_dir = test_flow_review_config['numbering_flow']['input_dir']
+19:05:58  KeyError: 'numbering_flow'
+19:05:58  ]]>		</error>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_flow_review_export_as_sheet_data" time="0.098" timestamp="2022-11-14T23:56:57">
+19:05:58  		<error message="'financial_statement_v2'" type="KeyError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 309, in wrapper
+19:05:58      return test_func(*args, **kwargs)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_flow_review.py", line 697, in test_flow_review_export_as_sheet_data
+19:05:58      input_dir = test_flow_review_config['financial_statement_v2']['input_dir']
+19:05:58  KeyError: 'financial_statement_v2'
+19:05:58  ]]>		</error>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_flow_review_export_golden" time="0.090" timestamp="2022-11-14T23:56:57">
+19:05:58  		<error message="'branch_merge_v3'" type="KeyError">
+19:05:58  <![CDATA[Traceback (most recent call last):
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/system_utils/system_test_case.py", line 309, in wrapper
+19:05:58      return test_func(*args, **kwargs)
+19:05:58    File "/home/ib-build/workspace/RELENG-124-system-test-manual/shared-utils/py-utils/system-tests/build/py/instabase_test/test_flow_review.py", line 747, in test_flow_review_export_golden
+19:05:58      input_dir = test_flow_review_config['branch_merge_v3']['input_dir']
+19:05:58  KeyError: 'branch_merge_v3'
+19:05:58  ]]>		</error>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="687" name="test_database_results" time="0.003" timestamp="2022-11-14T23:44:14">
+19:05:58  		<!--Invoke run_database_perf_tests without necessary parameters.
+19:05:58  
+19:05:58      Owner: Shutong Chen
+19:05:58  
+19:05:58      Description: Issues post requests to the public endpoint for running a database
+19:05:58        performance test. The database performance test includes ping, read, update, 
+19:05:58        delete, insert and scan operations. The results are stored and retrieved by a 
+19:05:58        result fetching API for performance tests. The system test validates that the 
+19:05:58        results are retrievable and that there are no errors (no failures in rpc and api
+19:05:58        calls) in the results.
+19:05:58      -->
+19:05:58  		<skipped message="Disable for now before fixing the configuration issue of gRPC" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="208" name="test_system_test_diagnostics" time="0.001" timestamp="2022-11-14T23:44:26">
+19:05:58  		<!--Test the diagnostics/system_test api endpoint works as expected.
+19:05:58  
+19:05:58        Owner: Adrian Blue (adrian.blue)
+19:05:58  
+19:05:58        Description: System test which tests using the public api for running a diagnostic 
+19:05:58          child system test against a deployment. The background job running the child system
+19:05:58          test only executes system-tests tagged "on-prem". The results are reported back to the 
+19:05:58          parent system test, which validates that no tests in the child system test job. 
+19:05:58      -->
+19:05:58  		<skipped message="Disable for now as core-task has stability issues" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_copy_and_move_across_file" time="0.002" timestamp="2022-11-14T23:46:58">
+19:05:58  		<skipped message="deprecated file system API V1 test" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="293" name="test_copy_and_move_across_folder" time="0.001" timestamp="2022-11-14T23:46:58">
+19:05:58  		<skipped message="deprecated file system API V1 test" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="308" name="test_copy_and_move_file" time="0.003" timestamp="2022-11-14T23:46:58">
+19:05:58  		<!--Test copy and move file.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Copy a single file from source to destination. 
+19:05:58        2) Move a single file from source to destination.    
+19:05:58      -->
+19:05:58  		<skipped message="deprecated file system API V1 test" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="377" name="test_copy_and_move_folder" time="0.004" timestamp="2022-11-14T23:46:58">
+19:05:58  		<!--Test copy and move folders.
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Copy a folder to a new destination
+19:05:58        2) Copy a folder to an existing folder
+19:05:58        3) Move a folder to a new destination
+19:05:58        4) Move a folder to an existing folder 
+19:05:58      -->
+19:05:58  		<skipped message="deprecated file system API V1 test" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="624" name="test_rename" time="0.002" timestamp="2022-11-14T23:51:42">
+19:05:58  		<!--Test that files and folders can be renamed.
+19:05:58  
+19:05:58      Owner: Xi Cheng (xi.cheng)
+19:05:58  
+19:05:58      Description: The following test cases are run with either the OAuth token or
+19:05:58        cookies when issuing file service API calls:
+19:05:58  
+19:05:58        1) Rename a file
+19:05:58        2) Rename a folder
+19:05:58      -->
+19:05:58  		<skipped message="deprecated file system API V1 test" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="454" name="test_update_index" time="0.003" timestamp="2022-11-15T00:00:49">
+19:05:58  		<!-- Test one can update index and search for custom metadata. Note that because
+19:05:58      this test introduces states to db, it currently only runs locally.
+19:05:58      -->
+19:05:58  		<skipped message="This is a special test that introduces states in db and has been flaky" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="65" name="test_admins" time="0.003" timestamp="2022-11-15T00:00:49">
+19:05:58  		<skipped message="skip for now as this test needs to be rewritten" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  	<testcase classname="instabase_test.system_utils.system_test_case.SystemTestCase.create_parameterized_test_case.&lt;locals&gt;.parameterized" file="build/py/instabase_test/system_utils/system_test_case.py" line="100" name="test_saml_mappings" time="0.004" timestamp="2022-11-15T00:00:49">
+19:05:58  		<skipped message="skip for now as this test needs to be rewritten" type="skip"/>
+19:05:58  	</testcase>
+19:05:58  </testsuite>
